@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" />
+    <link rel="shortcut icon" href="logoveg.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="zomatolite.css"/>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src ="zomatolite.js"></script>
+    <title>Lite & healthy food</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div class="navbar">
+            <ul>
+                <a href="#">
+                    <i class="fa-solid fa-house-chimney fa-xl"></i>
+                </a>
+                <a href="#">
+                    <li><b>About</b></li>
+                </a>
+                <a href="#">
+                    <li><b>Menu</b></li>
+                </a>
+
+                <a href="#">
+                  <!-- Cart Icon -->
+                    <i class="fa-solid fa-cart-shopping fa-l" id="cartIcon" data-quantity="0" style="font-variant: small-caps;">&nbsp; Add-Yums</i></a>
+                    
+                  <!-- Cart -->
+                  <div class="cart"></div>
+
+                  <!-- Close Cart -->
+                <div class="cartClose" id="cart-close"></div>
+                
+                <a href="login.html">
+                    <i class="fa-solid fa-user fa-lg" style="font-variant: small-caps;">&nbsp; Profile</i>
+                </a>
+
+                <div class="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    <input type="search" placeholder="Search your delicious food here" id="search" style="width: 15vw; border: transparent; box-shadow: 3px 3px 2px;"/>
+            </div>
+            </ul>
+        </div>
+    </header>
+  </div>
+
+    <div class="slides">
+      <div class="slider">
+        <img src="./Pics/Slide1.jpg" id="slide1" style=" border: 3px solid aliceblue;">
+        <img src="./Pics/slide2.jpg" id="slide1" style=" border: 5px solid aliceblue;">
+        <img src="./Pics/slide3.jpg" id="slide1" style=" border: 5px solid aliceblue;">
+        <img src="./Pics/slide4.jpg" id="slide1" style=" border: 5px solid aliceblue;">
+      </div>
+    </div><br>
+    
+  <div class="container-fluid">
+  <div class="container">
+    <div class="row mt-5 gx-15" style="display: flex; align-items: center; justify-content: center;">
+      <div class="col-lg-3"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Batata Vada Kati Roll.jpg">
+        <strong><li>Price: ₹149</li></strong>
+        <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+        <strong>Batata Vada Kati Roll</strong>
+    </div>
+
+      <div class="col-lg-3"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Cheesy Paneer.jpg">
+        <strong><li>Price: ₹149</li></strong>
+        <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+        <strong>Cheesy Paneer</strong>
+    </div>
+
+      <div class="col-lg-3"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Creamy Mexicano Subwich.jpg">
+       <strong><li>Price: ₹149</li></strong>
+       <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+       <strong>Creamy Mexicano Sandwich</strong>
+    </div>
+
+      <div class="col-lg-3"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Jerk Cottage Cheese Sandwich.jpg">
+        <strong><li>Price: ₹149</li></strong>
+        <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+        <strong>Cottage Cheese Sandwich</strong>
+    </div>
+    </div><br>
+
+    <div class="row gx-5" style="display: flex; align-items: center; justify-content: center;">
+      <div class="col-lg-3"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Loaded Paneer Popcorn Sub.jpg">
+        <strong><li>Price: ₹149</li></strong>
+        <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+        <strong>Loaded Paneer Popcorn Sub</strong>
+      </div>
+
+      <div class="col-lg-3 gx-5"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Paneer Bhurji Bread.jpg">
+        <strong><li>Price: ₹149</li></strong>
+        <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+        <strong>Paneer Bhurji Bread</strong>
+      </div>
+
+      <div class="col-lg-3"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Peri Peri Paneer Wrap.jpg">
+        <strong><li>Price: ₹149</li></strong>
+        <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+        <strong>Peri Peri Paneer Wrap</strong>
+      </div>
+      
+      <div class="col-lg-3"><img id="flip" style="height: 30vh; border: 5px solid aliceblue; box-shadow: 0px 3px 5px rebeccapurple;" src="./Pics/Soboro Don Superbowl.jpg">
+        <strong><li>Price: ₹149</li></strong>
+        <button type="button" class="btn btn-primary" id="order"><b>Add-Yum</b></button>
+        <strong>Soboro Don Superbowl</strong>
+      </div>
+    </div><br>
+
+    <div class="row mt-5 gx-x gx-y">
+      <div class="col-lg-6">
+      <footer style="text-align: center; word-wrap: break-word;">
+        <hr><span><strong><li>Contact Us @099-9999-9999 for any query, or Email us at <a href="#">info@zomatolite.com</a> we will resolve it with in a 24 to 48 working-hours & you can share your valuable feedback also here.</li></strong></span><br>
+        <span><strong>©2023 All rights are reserved.</strong></span><hr>
+      </footer>
+    </div>
+  </div>
+
+</body>
+</html>
