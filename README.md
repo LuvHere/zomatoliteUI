@@ -1,2 +1,2 @@
-# zomatoliteUI
+# zomatolite
 HTML | CSS | BOOTSTRAP
